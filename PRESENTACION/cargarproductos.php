@@ -8,7 +8,7 @@
 <body>
     <h1>modulo de productos</h1>
     <hr>
-    <a href="guardarproducto.php">crear nuevo producto</a>
+    <a href="guardarproductos.php">crear nuevo producto</a>
     <table border="1">
         <thead>
             <th>Id</th><th>Nombre</th><th>Stock</th><th>Monto</th><th>idcategoria</th>

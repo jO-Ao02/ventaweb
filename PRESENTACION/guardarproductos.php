@@ -50,7 +50,7 @@
         $prod->setMonto($_POST['txtmon']);
         $prod->setIdCategoria($_POST['cbxCat']);
         $log->guardar($prod);
-        header('Location: cargarfamilias.php');
+        header('Location: cargarproductos.php');
     }
 ?>
 <script>

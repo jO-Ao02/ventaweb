@@ -5,7 +5,7 @@
     $categorias = $log->cargarPorFamilia($idfam);
     $repuesta = '';
     foreach ($categorias as $c) {
-        $repuesta.="<option value='<?=$c->getIdCategoria()?>'>".$c->getNombre()."</option>";
+        $repuesta.="<option value=" .$c->getIdCategoria(). ">".$c->getNombre().'</option>';
     }
     echo $repuesta;
 ?>
